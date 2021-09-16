@@ -13,9 +13,9 @@ Pngblob can turn any file to png image using any png image as key its purpose is
 
 png-->: this button select encrypted secret file for decryption
 
-key: this button generates png image to use  as personal encryption key, file name is key.png
-      this generated image key can be exchanged with your friends, then they can read your files. 
-      Without key nobody can open encrypted files.
+key:     this button generates png image to use  as personal encryption key, file name is key.png
+          this generated image key can be exchanged with your friends, then they can read your files. 
+          Without key nobody can open encrypted files.
 
 exit: exit app.
 
