@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>DejaVu Sans</family>
+    <pointsize>16</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>PngBlob v1.0</string>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{
+background-color: transparent;
+border: none;
+background-repeat: none;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="Button_Close">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>350</y>
+      <width>107</width>
+      <height>73</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#Button_Close{
+background-color: transparent;
+border-image: url(:exit_b_off.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#Button_Close:hover{
+border-image: url(:exit_b_on.png);
+}
+#Button_Close:pressed{
+border-image: url(:exit_b_clicked.png);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonCode">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>350</y>
+      <width>107</width>
+      <height>73</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ButtonCode{
+background-color: transparent;
+border-image: url(:to_pnf_off.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#ButtonCode:hover{
+border-image: url(:to_pnf_on.png);
+}
+#ButtonCode:pressed{
+border-image: url(:to_pnf_click.png);
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonDecode">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>350</y>
+      <width>107</width>
+      <height>73</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ButtonDecode{
+background-color: transparent;
+border-image: url(:from_png_off.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#ButtonDecode:hover{
+border-image: url(:from_png_on.png);
+}
+#ButtonDecode:pressed{
+border-image: url(:from_png_clicked.png);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ButtonKey">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>350</y>
+      <width>107</width>
+      <height>73</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#ButtonKey{
+background-color: transparent;
+border-image: url(:key_b_off.png);
+background: none;
+border: none;
+background-repeat: none;
+}
+#ButtonKey:hover{
+border-image: url(:key_b_on.png);
+}
+#ButtonKey:pressed{
+border-image: url(:key_b_clicked.png);
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>640</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>640</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="baseSize">
+     <size>
+      <width>640</width>
+      <height>480</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#graphicsView{
+background-color: transparent;
+border-image: url(:winbkgnd2.png);
+background: none;
+border: none;
+background-repeat: none;
+}</string>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <property name="backgroundBrush">
+     <brush brushstyle="NoBrush">
+      <color alpha="0">
+       <red>0</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </brush>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBar">
+    <property name="geometry">
+     <rect>
+      <x>55</x>
+      <y>294</y>
+      <width>527</width>
+      <height>45</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>DejaVu Sans</family>
+      <pointsize>15</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#progressBar{
+background: none;
+border: none;
+background-repeat: none;
+opacity: 100;
+border: 2px solid #00B207;
+border-radius: 5px;
+background-color: #006804;
+}
+#progressBar:pressed{
+border-image: url(:keyon.png);
+}
+
+</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>graphicsView</zorder>
+   <zorder>Button_Close</zorder>
+   <zorder>ButtonCode</zorder>
+   <zorder>ButtonDecode</zorder>
+   <zorder>ButtonKey</zorder>
+   <zorder>progressBar</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

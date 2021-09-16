@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/">
+        <file>appicon.ico</file>
+        <file>blood.png</file>
+        <file>file.png</file>
+        <file>null-byte.jpg</file>
+        <file>ufolek2.jpg</file>
+        <file>bcoff.png</file>
+        <file>bcon.png</file>
+        <file>bdon.png</file>
+        <file>bdoff.png</file>
+        <file>exiton.png</file>
+        <file>exitoff.png</file>
+        <file>keyon.png</file>
+        <file>keyoff.png</file>
+        <file>winbkgnd.png</file>
+        <file>beer.wav</file>
+        <file>buttonc.wav</file>
+        <file>eror.wav</file>
+        <file>key_b_off.png</file>
+        <file>exit_b_off.png</file>
+        <file>from_png_off.png</file>
+        <file>to_pnf_off.png</file>
+        <file>exit_b_on.png</file>
+        <file>from_png_on.png</file>
+        <file>to_pnf_on.png</file>
+        <file>key_b_on.png</file>
+        <file>exit_b_clicked.png</file>
+        <file>key_b_clicked.png</file>
+        <file>to_pnf_click.png</file>
+        <file>from_png_clicked.png</file>
+        <file>winbkgnd2.png</file>
+    </qresource>
+</RCC>
